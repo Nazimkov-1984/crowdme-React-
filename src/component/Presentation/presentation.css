@@ -1,0 +1,25 @@
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 160px;
+}
+.presentation__logo {
+    margin-bottom: 72px;
+}
+.presentation__title {
+    color:#515151;
+    font-size: 31px;
+    text-transform: uppercase;
+    width: 45% ;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.presentation__text-top, .presentation__text-bottom {
+    width: 80%;
+    text-align: center;
+    color:#515151;
+    font-size: 19px;
+}
