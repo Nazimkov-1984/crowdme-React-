@@ -8,11 +8,13 @@ import MyComponent from './component/MainScreen/Mainscreen';
 import Main from './component/Main/Main';
 import Presentation from './component/Presentation/Presentation';
 
+
 ReactDOM.render(
   <React.StrictMode>
     <Header />
     <Main />
     <Presentation />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
