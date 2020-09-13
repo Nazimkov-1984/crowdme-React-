@@ -32,6 +32,7 @@
     justify-content: space-around;
     border-bottom: 1px solid #515151; 
     width: 80%;
+    margin-bottom: 70px;
 }
 .presentation__tab__item__wrapper{
     width: 46px;
@@ -57,4 +58,24 @@
 }
 .presentation__tab__item__wrapper-active{
     background-color:#add136;
+}
+.presentation__logo {
+    margin-right: 105px;
+}
+.persentation__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.persentation__text-wrapper {
+    flex-basis: 50%;
+}
+.persentation__glass-title {
+    font-size: 25px ;
+    color:#ADD136;
+}
+.persentation__glass-text{
+    font-size: 17px ;
+    color:#606060;
+   
 }

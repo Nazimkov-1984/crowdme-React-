@@ -16,7 +16,13 @@ function Presentation () {
             <li className="presentation__tab__item"><div className="presentation__tab__item__wrapper"><span className="presentation__tab__number">2</span></div> <p className="presentation__tab__text" >Transparent</p></li>
             <li className="presentation__tab__item"><div className="presentation__tab__item__wrapper"><span className="presentation__tab__number">3</span></div> <p className="presentation__tab__text" >Collaborative</p></li>
         </ul> 
-        <img className="presentation__logo" src={glasses}></img>
+            <div className="persentation__wrapper">
+                <img className="presentation__logo" src={glasses}></img>
+                <div className="persentation__text-wrapper">
+                    <h2 className="persentation__glass-title">Browse projects, like booking a hotel online !</h2>
+                    <p className="persentation__glass-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
         </div>
        
        

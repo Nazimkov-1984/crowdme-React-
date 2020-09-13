@@ -7,6 +7,7 @@ import Mainscreen from './component/MainScreen/Mainscreen';
 import MyComponent from './component/MainScreen/Mainscreen';
 import Main from './component/Main/Main';
 import Presentation from './component/Presentation/Presentation';
+import Cards from './component/Cards/Cards';
 
 
 ReactDOM.render(
@@ -14,7 +15,7 @@ ReactDOM.render(
     <Header />
     <Main />
     <Presentation />
-    <App/>
+    <Cards />
   </React.StrictMode>,
   document.getElementById('root')
 );
